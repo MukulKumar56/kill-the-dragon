@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>superhero war </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="left">
+        <div class="title">
+            <h1>SUPER HERO 
+                <br> animated game  </h1>
+              <h3> <span class="a">Designed by :  </span> <span class="b">Mukul Kumar</span></h3>
+              <h3> <span class="a">Languages used  :  </span> <span class="b">Html, css, js </span></h3>
+              
+        </div>
+    </div>
+
+    <div class="right">
+        <div class="title">
+            <h1>DOCUMENTATION
+                </h1>
+              <div class="txt"> <span class="c">Move left : </span> <span class="d">Press <img src="./assets/arrow-left.png" height="17px"> left arrow key </span></div>
+              <div class="txt"> <span class="c">Move Right : </span> <span class="d">Press <img src="./assets/arrow-right.png" height="17px"> right arrow key </span></div>
+              <div class="txt"> <span class="c">Fire  : </span> <span class="d">Press <img src="./assets/space.png" height="17px"> spacebar to fire </span></div>
+              <div class="txt"> <span class="c">Reload   : </span> <span class="d">Press <img src="./assets/f5.png" height="17px">  F5 to reload  </span></div>
+              
+        </div>
+    </div>
+   
+   
+    <div class="loading">
+        <h1 class='loading-title'>KILL THE DRAGON </h1> <img class='loadingBanner' src="assets/sprite1.png"
+            alt="can't load ">
+        <h2 class="loading_lables">loading</h2>
+        <div class="bar_container">
+
+            <div class="progressBar"></div>
+        </div>
+    </div>
+
+    <div class="game" id="game">
+
+        <div class="player" id="player"><img src="assets/hero.png" alt=""></div>
+        <div class="alien" id="alien"><img src="assets/dragon.png" alt=""></div>
+    </div>
+  
+    <div class="sprite1"></div>
+    <div class="sprite2"></div>
+
+    <div class="profile">
+        <h2 class="title">profile</h2>
+        <img src="assets/gamer.png" height="75px">
+        <h4>name : player1 </h4>
+    </div>
+
+    <div id="result">
+        <h1>Game Over</h1>
+        
+        <p id="score"></p>
+        <button id="btn" onclick="location.reload()">Restart</button>
+    </div>
+
+    <audio id="shoot" src="fireex.wav"></audio>
+    <audio id="gameover" src="gameover.wav"></audio>
+
+    <script src="main.js"></script>
+    <script src="loading.js"></script>
+</body>
+</html>
+
+
+<!-- THANK YOU  -->
